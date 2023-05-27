@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.outerbox {
+  padding: 0.3rem;
+  margin: auto auto;
+  height: 560px;
+  width: 800px;
+  border: 2px solid black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footerText {
+  float: right;
+  padding-right: 1rem;
+  margin-bottom: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Mynerve", cursive;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.eachNavbar {
+  margin-top: auto;
+  border-right: 1px solid black;
+  margin-bottom: auto;
+  padding: 0 10px;
+}
+h2 {
+  padding-left: 1rem;
+}
+.mainDiv {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+}
+.leftSide {
+  width: 70%;
+  height: 364px;
+}
+.footer {
+  background-color: pink;
+  height: 50px;
+  width: 100%;
+}
+.textBox {
+  height: 250px;
+  width: 550px;
+  padding-left: 1rem;
+}
+li {
+  margin-top: 0.5rem;
+}
+ul {
+  margin-left: 2rem;
+}
+.rightSide {
+  background-color: #c6d7e1;
+  width: 30%;
+  line-height: 20px;
+  height: 364px;
+}
+.firstDiv {
+  display: flex;
+  justify-content: left;
+  margin: auto 0;
+  height: 100px;
+  background-color: #ffc28d;
+}
+.navbar {
+  display: flex;
+  height: 2rem;
+  background-color: #e19c96;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topHeading {
+  margin-left: 1rem;
+  margin: auto 1rem;
+  float: left;
+  font-weight: 600;
 }
